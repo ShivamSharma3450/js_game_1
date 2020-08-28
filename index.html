@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bouncing balls</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1>bouncing balls : Shubham Mishra</h1>
+    <p id='ballCount'>Remaining Balls count: </p>
+    <p id="info-button" onclick="toggleInfoScreen()">?</p>
+    <div id="info-screen" class="hidden">
+      <div id="info-text">
+        <h3>Catch Shubham!:</h3>
+          <ul>
+            <li>Hope U r enjoying the songs</li>
+            <li>Lets make out some money from what u were not!</li>
+          </ul>
+          <h3>Built with: Shubham</h3>
+      </div>
+    </div>
+    <canvas></canvas>
+
+    <script src="main.js"></script>
+  </body>
+</html>
+<!-- ****** NOTE: Many things are missing to implement: 
+One is to get user name from prompt,
+Second to add timer and also chage the sentence of U win to u tooked this much time, 
+Save the time taken in web storage and compare previous time taken to the current time taken,
+Also after game overs just show options to restart the game,
+With that do provide controllers for ball's sensitivity also (velocity of evil user), and also velocity of the game, 
+Set the game mode (simple and time limit mode), in simple it will be as it is, in tough U will have to constraint time (this all settings U will need to ask while the game begging),
+Also change the CSS of the page.
+Handle alert with sweet alert
+Make 4 such games and deploy it on freehosting site with a shining index page for all the games, and add it to your resume/ LinkedIn/ Blogger/ Stackoverflow etc. 
+******* For mobile screen add touch listener : http://hammerjs.github.io/
+And also this : https://stackoverflow.com/questions/2264072/detect-a-finger-swipe-through-javascript-on-the-iphone-and-android
+And deploy its data and hosting on : https://medium.com/@aleemuddin13/how-to-host-static-website-on-firebase-hosting-for-free-9de8917bebf2
+Or ooofreewebshosting or Github
+-->

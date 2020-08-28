@@ -1,0 +1,93 @@
+html, body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: -4px;
+  right: 5px;
+  /*color: transparent;*/
+  /*text-shadow: 0 0 4px white;*/
+  color: #aaa;
+}
+
+p {
+  position: absolute;
+  margin: 0;
+  top: 35px;
+  right: 5px;
+  color: #aaa;
+}
+
+#info-button {
+  margin-top: 25px;
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+  color: button;
+  border: 2px solid #FFF;
+  cursor: pointer;
+  position: fixed;
+  align-content: center;
+  justify-content: center;
+  color: #FFF; 
+  display: inline-grid;
+  border-radius: 30px; 
+  z-index: 11;
+}
+
+.full-width-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#info-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+#info-text{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.8;
+  color: white; 
+}
+
+.hidden {
+  display: none !important;
+}
+/******* NOTE: Many things are missing to implement: 
+One is to get user name from prompt,
+Second to add timer and also chage the sentence of U win to u tooked this much time, 
+Save the time taken in web storage and compare previous time taken to the current time taken,
+Also after game overs just show options to restart the game,
+With that do provide controllers for ball's sensitivity also (velocity of evil user), and also velocity of the game, 
+Set the game mode (simple and time limit mode), in simple it will be as it is, in tough U will have to constraint time (this all settings U will need to ask while the game begging),
+Also change the CSS of the page.
+Handle alert with sweet alert
+Make 4 such games and deploy it on freehosting site with a shining index page for all the games, and add it to your resume/ LinkedIn/ Blogger/ Stackoverflow etc.
+*/
